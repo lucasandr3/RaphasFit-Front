@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: #413f5d;
+    filter: drop-shadow(3px 0px 0px #3ad29f);
+}
+
+img {
+    width: 500px;
+    height: auto;
+}
+
+p {
+    font-size: 17px;
+    color: #413f5d;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* Classes */
+
+.text-center {
+    text-align: center;
+}

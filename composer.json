@@ -1,0 +1,19 @@
+{
+	"require:":{
+
+	},
+	"autoload":{
+		"psr-4":{
+			"Controllers\\":"Controllers/",
+			"Models\\":"Models/",
+			"Core\\":"Core/"
+		}
+	},
+	"require": {
+		"mpdf/mpdf": "^8.0",
+		"mercadopago/dx-php": "^2.0",
+		"ramsey/uuid": "^4.1",
+		"matthiasmullie/minify": "^1.3",
+		"gerencianet/gerencianet-sdk-php": "^4.0"
+	}
+}
